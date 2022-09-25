@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  height: 100vh;
+  background-image: url(/images/bg-main-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img1 {
+  width: 100%;
+  height: 35vh;
+  background-image: url(/images/bg-card-front.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 10rem;
+  top: 5rem;
+}
+.inner {
+  display: flex;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 20px;
+  background-color: aliceblue;
+}
+.img1 #hi {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+.heading {
+  justify-content: center;
+  color: aliceblue;
+  margin-top: 6rem;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.name {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.name h1 {
+  font-size: 15px;
+  color: aliceblue;
+  margin-left: 15px;
+}
+.name p {
+  color: aliceblue;
+}
+.img2 {
+  width: 100%;
+  height: 35vh;
+  background-image: url(/images/bg-card-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 16rem;
+  top: 22rem;
+}
+.item {
+  width: 80%;
+  height: 5vh;
+  align-items: center;
+  position: absolute;
+  top: 6rem;
+  left: 2.9rem;
+  text-align: end;
+}
+.item p {
+  margin-top: 7px;
+  margin-right: 5px;
+  color: aliceblue;
+  font-size: 21px;
+}
+.right {
+  width: 70%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+}
+form {
+  width: 40%;
+  height: 50vh;
+  margin-top: 9rem;
+  margin-left: 25rem;
+}
+label {
+  font-size: 17px;
+  color: hsl(278, 68%, 11%);
+}
+input[type="text"] {
+  width: 90%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid hsl(279, 6%, 55%);
+}
+input:focus{
+    border: 1px solid wheat;
+}
+.contain {
+    width: 100%;
+  display: flex;
+}
+span {
+  display: flex;
+  column-gap: 8px;
+}
+.carry{
+    width: 55%;
+}
+.side{
+    width: 50%;
+}
+.side input[type="text"] {
+    width: 80%;
+    height: 5vh;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+  }
+input[type="number"] {
+  width: 35%;
+  height: 5vh;
+  padding-left: 9px;
+  border-radius: 5px;
+  column-gap: 15px;
+  border: 1px solid hsl(279, 6%, 55%);
+}
+button{
+    width: 95%;
+    height: 6vh;
+    background-color: hsl(278, 68%, 11%);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
