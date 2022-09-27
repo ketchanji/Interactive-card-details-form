@@ -207,7 +207,7 @@ button{
   form {
     width: 60%;
     height: 50vh;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: 12rem;
   }
 }
@@ -228,7 +228,7 @@ button{
   }
   .img1 {
     width: 60%;
-    height: 53vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -241,7 +241,7 @@ button{
   }
   .img2 {
     width: 60%;
-    height: 55vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -254,7 +254,7 @@ button{
   form {
     width: 60%;
     height: 50vh;
-    margin-top: 12rem;
+    margin-top: 6rem;
     margin-left: 10rem;
   }
 }
@@ -275,7 +275,7 @@ button{
   }
   .img1 {
     width: 80%;
-    height: 54vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -288,7 +288,7 @@ button{
   }
   .img2 {
     width: 80%;
-    height: 52vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -301,8 +301,60 @@ button{
   form {
     width: 80%;
     height: 50vh;
-    margin-top: 13rem;
+    margin-top: 6rem;
     margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 459px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }  
+  .left{
+    width: 100%;
+    height: 50vh;
+  }
+  .right {
+    width: 100%;
+    height: 50vh;
+  }
+  .img1 {
+    width: 80%;
+    height: 35vh;
+    border-radius: 10px;
+    background-image: url(/images/bg-card-front.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 1rem;
+    top: 10.3rem;
+    z-index: 1;
+  }
+  .img2 {
+    width: 80%;
+    height: 35vh;
+    border-radius: 10px;
+    background-image: url(/images/bg-card-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 5rem;
+    top: 2rem;
+  }
+  .heading h1 {
+    font-size: 29px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+  form {
+    width: 80%;
+    height: 50vh;
+    margin-top: 6em;
+    margin-left: 3rem;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -322,7 +374,7 @@ button{
   }
   .img1 {
     width: 90%;
-    height: 50vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -340,7 +392,7 @@ button{
 }
   .img2 {
     width: 90%;
-    height: 53vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -353,7 +405,7 @@ button{
   form {
     width: 90%;
     height: 50vh;
-    margin-top: 12rem;
+    margin-top: 6rem;
     margin-left: 2rem;
   }
 }
@@ -374,7 +426,7 @@ button{
   }
   .img1 {
     width: 95%;
-    height: 50vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -392,7 +444,7 @@ button{
 }
   .img2 {
     width: 96%;
-    height: 53vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -405,7 +457,7 @@ button{
   form {
     width: 90%;
     height: 50vh;
-    margin-top: 12rem;
+    margin-top: 6rem;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -425,7 +477,7 @@ button{
   }
   .img1 {
     width: 95%;
-    height: 50vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -443,7 +495,7 @@ button{
 }
   .img2 {
     width: 96%;
-    height: 53vh;
+    height: 35vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -456,6 +508,6 @@ button{
   form {
     width: 90%;
     height: 50vh;
-    margin-top: 12rem;
+    margin-top: 6rem;
   }
 }
