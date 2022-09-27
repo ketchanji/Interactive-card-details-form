@@ -336,6 +336,7 @@ button{
   .heading h1 {
     font-size: 29px;
     text-decoration: none;
+    color: aqua;
     font-family: 'Times New Roman', Times, serif;
 }
   .img2 {
@@ -387,6 +388,7 @@ button{
   }
   .heading h1 {
     font-size: 22px;
+    color: aqua;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
