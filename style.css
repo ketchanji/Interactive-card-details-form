@@ -211,7 +211,7 @@ button{
     margin-left: 12rem;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .container {
     width: 100%;
     height: 100vh;
@@ -228,7 +228,7 @@ button{
   }
   .img1 {
     width: 60%;
-    height: 35vh;
+    height: 53vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -241,7 +241,7 @@ button{
   }
   .img2 {
     width: 60%;
-    height: 35vh;
+    height: 55vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -254,8 +254,8 @@ button{
   form {
     width: 60%;
     height: 50vh;
-    margin-top: 5rem;
-    margin-left: 12rem;
+    margin-top: 12rem;
+    margin-left: 10rem;
   }
 }
 @media only screen and (max-width: 530px) {
@@ -275,7 +275,7 @@ button{
   }
   .img1 {
     width: 80%;
-    height: 35vh;
+    height: 54vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -288,7 +288,7 @@ button{
   }
   .img2 {
     width: 80%;
-    height: 35vh;
+    height: 52vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -301,11 +301,11 @@ button{
   form {
     width: 80%;
     height: 50vh;
-    margin-top: 5rem;
+    margin-top: 13rem;
     margin-left: 5rem;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 425px) {
   .container {
     width: 100%;
     height: 100vh;
@@ -322,7 +322,7 @@ button{
   }
   .img1 {
     width: 90%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -336,12 +336,11 @@ button{
   .heading h1 {
     font-size: 29px;
     text-decoration: none;
-    color: aqua;
     font-family: 'Times New Roman', Times, serif;
 }
   .img2 {
     width: 90%;
-    height: 35vh;
+    height: 53vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
@@ -354,11 +353,11 @@ button{
   form {
     width: 90%;
     height: 50vh;
-    margin-top: 5rem;
+    margin-top: 12rem;
     margin-left: 2rem;
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 320px) {
   .container {
     width: 100%;
     height: 100vh;
@@ -375,7 +374,7 @@ button{
   }
   .img1 {
     width: 95%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-front.png);
     background-position: center;
@@ -388,25 +387,75 @@ button{
   }
   .heading h1 {
     font-size: 22px;
-    color: aqua;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
   .img2 {
-    width: 95%;
-    height: 35vh;
+    width: 96%;
+    height: 53vh;
     border-radius: 10px;
     background-image: url(/images/bg-card-back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    left: 1rem;
+    left: .4rem;
     top: 2rem;
   }
   form {
     width: 90%;
     height: 50vh;
-    margin-top: 5rem;
+    margin-top: 12rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }  
+  .left{
+    width: 100%;
+    height: 50vh;
+  }
+  .right {
+    width: 100%;
+    height: 50vh;
+  }
+  .img1 {
+    width: 95%;
+    height: 50vh;
+    border-radius: 10px;
+    background-image: url(/images/bg-card-front.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: .4rem;
+    top: 10.3rem;
+    z-index: 1;
+  }
+  .heading h1 {
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+  .img2 {
+    width: 96%;
+    height: 53vh;
+    border-radius: 10px;
+    background-image: url(/images/bg-card-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: .4rem;
+    top: 2rem;
+  }
+  form {
+    width: 90%;
+    height: 50vh;
+    margin-top: 12rem;
   }
 }
